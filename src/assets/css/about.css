@@ -1,3 +1,37 @@
 .about--container {
-  width: 100%;
+}
+.about--aside {
+  width: 35%;
+  background: url('../images/allie.jpg');
+  background-attachment: scroll, fixed;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  border: solid #ffffff80 1px;
+}
+.about--container h2 {
+  font-size: 3em;
+  font-family: 'Charmonman', cursive;
+  color: #f58f94;
+}
+.about--main {
+  width: 65%;
+  margin-left: auto;
+  padding: 8em 4em 4em;
+}
+.aside-logo {
+  font-family: 'Charmonman', cursive;
+  font-size: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  height: 70px;
+  text-decoration: none;
+  border-bottom: none;
+}
+.about--container div#footer {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
 }
