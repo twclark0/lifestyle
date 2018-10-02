@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
+import { Link } from 'gatsby'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
@@ -118,16 +119,16 @@ class HomeIndex extends React.Component {
         <Helmet>
           <title>{siteTitle}</title>
           <meta name="description" content={siteDescription} />
+          <link
+            href="https://fonts.googleapis.com/css?family=Charmonman:400,700"
+            rel="stylesheet"
+          />
         </Helmet>
 
         <div id="main">
           <section id="one">
             <header className="major">
-              <h2>
-                Ipsum lorem dolor aliquam ante commodo
-                <br />
-                magna sed accumsan arcu neque.
-              </h2>
+              <h2>Allie's Lifestyle</h2>
             </header>
             <p>
               Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
@@ -139,9 +140,9 @@ class HomeIndex extends React.Component {
             </p>
             <ul className="actions">
               <li>
-                <a href="#" className="button">
+                <Link to="/about/" className="button">
                   My Story
-                </a>
+                </Link>
               </li>
             </ul>
           </section>
